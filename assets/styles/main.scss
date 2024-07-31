@@ -1,0 +1,62 @@
+@import url('./reset.scss');
+
+:root {
+  --color-primary: #5D30FF;
+  --color-primary-opacity: #BBD2FF;
+
+  --color-danger: #FF1C1C;
+  --color-danger-light: #FF5252;
+  --color-warning: #FCDF07;
+  --color-good: #09E409;
+
+  --color-shadow-primary: rgba(0, 0, 0, .25);
+  --color-shadow-opacity-1: #5D30FF;
+  --color-shadow-opacity-2: #5D30FF;
+
+  --font-primary: #000000;
+  --font-secondary: #676767;
+  --font-thrity: #979797;
+  --font-helper: #0F0066;
+  --font-alternative: #FFFFFF;
+  --font-accent: #FC8507;
+
+  --font-size-icon: 20px;
+  --font-size-l: 16px;
+  --font-size-m: 14px;
+  --font-size-s: 12px;
+
+  --background-color: #F8F8F8;
+  --background-accent: #FFFFFF;
+  --background-shadow-color: #eeeded;
+
+  --shadow-primary: 0 0 3px 1px var(--color-shadow-primary);
+  --shadow-danger: 0 0 2px 2px var(--color-danger);
+}
+
+.flex {
+  display: flex;
+
+  &.center {
+    align-items: center;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.error-description {
+  color: var(--color-danger);
+}
+
+.pointer {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.tag {
+  font-size: var(--font-size-s);
+  color: var(--color-primary);
+  margin-right: 2px;
+}
